@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:poppins ;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+
+}
+nav ul li{
+    display: inline-block;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
+    transition: .2s;
+}
+nav ul li:hover{
+     transform: scale(1.1);
+}
+nav ul li a{
+    text-transform: capitalize;
+    line-height: 60px;
+    font-size: 28px;
+    color:black;
+    padding: 15px;
+    transition: .2s;
+}
+nav ul li a:hover{
+    color: #ec26b1;
+    text-decoration: underline;
+   
+    
+
+    
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 800px;
+    color: #333333;
+    text-transform: uppercase;
+
+
+}
+.logo img{
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    max-height:100px ;
+
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 30px;
+    min-height: 500px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    background-color: #ffedf6;
+}
+.container #inform{
+    font-size: 23px;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgba(0, 0, 0, 0.705);
+  border-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8) ) , url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh--MxKdV3Iqkqjhq1CHY3XUmBvZz2deNZqQ&s);
+  font-style: italic;
+  transition: 2s;
+  overflow: hidden;
+
+
+}
+.search-box{
+    width: 290px;
+}
+.container #inform:hover{
+    /* transform: scale(1.2); */
+    color: rgba(128, 0, 128, 0.692);
+}
+.container #passi{
+    text-align: center;
+    font-size: 40px;
+    color: #333333;
+    transition: 2s;
+
+    
+
+}
+.container #passi:hover{
+    color: rgba(128, 0, 128, 0.747);
+    transform: scale(1.1);
+}
+.container #webbers{
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: .2s;
+
+}
+.container #webbers:hover{
+    transform: perspective(500px);
+    color: rgba(128, 0, 128, 0.712);
+}
+.footer {
+    background-color: #f3e7f6;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    color: #4a235a;
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 22%;
+    margin-bottom: 20px;
+}
+footer{
+     background-color: #f3e7f6;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    color: #4a235a;
+    margin-top: 10px;
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #4a235a;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #a569bd;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.email-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a569bd;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe-btn {
+    padding: 10px 20px;
+    background-color: #a569bd;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #884ea0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    background-color: #e8d4ef;
+}
